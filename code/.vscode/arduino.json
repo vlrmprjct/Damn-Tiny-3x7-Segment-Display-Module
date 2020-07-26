@@ -1,0 +1,8 @@
+{
+    "output": "./build",
+    "port": "COM6",
+    "board": "attiny:avr:ATtinyX4",
+    "configuration": "cpu=attiny84,clock=internal1",
+    "programmer": "Arduino as ISP",
+    "sketch": "attiny84.ino"
+}

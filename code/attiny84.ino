@@ -1,21 +1,3 @@
-# Damn-Tiny-3x7-Segment-Display-Module
-Damn Tiny 3x7 Segment Display PCB Module
-
-### Board
-
-#### Top:
-
-![Topside](./board_3d_top.png)
-
-#### Bottom:
-
-![Bottomside](./board_3d_bottom.png)
-
-### Sample code using ATTINY84
-
-See: `./code/attiny84.ino`
-
-```c++
 // ATMEL ATTINY84
 //                          +-\/-+
 //                    VCC  1|    |14  GND
@@ -71,10 +53,3 @@ void loop() {
     printDigit(random(0, 999));
     delay(1000);
 }
-
-```
-
-### Changelog
-
-#### v0.9
-- Initial version
